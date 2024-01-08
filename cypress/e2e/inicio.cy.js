@@ -7,5 +7,6 @@ describe('Página inicial', () => {
       .contains(
       'Experimente mais liberdade no controle da sua vida financeira. Crie sua conta com a gente!'
       )
+    cy.verifyText('h2', 'Vantagens do nosso banco:')
   })
 })
