@@ -1,6 +1,6 @@
 describe('Formulário de login', () => {
   beforeEach(() => {
-    cy.visit('http://localhost:3000')
+    cy.visit('/')
   })
 
   it('Não deve permitir um e-mail inválido', () => {

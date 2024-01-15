@@ -1,6 +1,6 @@
 describe('Página inicial', () => {
   beforeEach(() => {
-    cy.visit('http://localhost:3000/')
+    cy.visit('/')
   })
   it('Deve renderizar o h1 com o texto correto', () => {
     cy.getByData('titulo-principal')

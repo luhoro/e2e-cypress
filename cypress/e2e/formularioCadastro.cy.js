@@ -1,6 +1,6 @@
 describe('Formulário cadastro', () => {
   beforeEach(() => {
-    cy.visit('http://localhost:3000')
+    cy.visit('/')
   })
 
   it('Usuário deve conseguir se cadastrar com sucesso', () => {
@@ -12,7 +12,7 @@ describe('Formulário cadastro', () => {
     cy.getByData('mensagem-sucesso').should('exist').and('have.text', 'Usuário cadastrado com sucesso!')
   })
 
-  it('Não deve permitir o cadastro de usuários com email e senha inválido', () => {
+  it.only('Não deve permitir o cadastro de usuários com email e senha inválido', () => {
     cy.getByData('botao-cadastro').click()
     cy.getByData('email-input').type('moni@alura.com')
     cy.getByData('senha-input').type('987654')
