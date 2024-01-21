@@ -2,6 +2,7 @@ describe('Página inicial', () => {
   beforeEach(() => {
     cy.visit('/')
   })
+  
   it('Deve renderizar o h1 com o texto correto', () => {
     cy.getByData('titulo-principal')
       .contains(

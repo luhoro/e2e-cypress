@@ -3,7 +3,7 @@ describe('Testando múltiplas páginas', () => {
     cy.visit('/')
   })
 
-  it('Deve conseguir acessar a página de cartôes', () => {
+  it('Deve conseguir acessar a página de cartôes', {browser: 'edge'}, () => {
     cy.getByData('botao-login').click()
     cy.getByData('email-input').type('luisa@gmail.com')
     cy.getByData('senha-input').type('Aa')

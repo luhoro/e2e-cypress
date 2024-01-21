@@ -4,7 +4,6 @@ describe('Jornadas de usuário', () => {
   })
 
   it.only('Permitir que o usuário acesse a aplicação, realize uma transação e faça um logout na aplicação', () => {
-
     cy.getByData('botao-login').click();
     cy.getByData('email-input').type('luisa@gmail.com');
     cy.getByData('senha-input').type('Aa');
@@ -23,7 +22,6 @@ describe('Jornadas de usuário', () => {
   });
 
   it('Deve permitir que o usuário faça o seu cadastro, realize login na aplicação, realize uma transação e faça um logout', () => {
-  
     cy.getByData('botao-cadastro').click();
     cy.getByData('nome-input').type('Alexandre de Morais');
     cy.getByData('email-input').type('alexandre@email.com');
