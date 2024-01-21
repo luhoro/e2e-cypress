@@ -1,6 +1,9 @@
 describe('Jornadas de usuário', () => {
-  it('Permitir que o usuário acesse a aplicação, realize uma transação e faça um logout na aplicação', () => {
+  beforeEach(() => {
     cy.visit('/');
+  })
+
+  it.only('Permitir que o usuário acesse a aplicação, realize uma transação e faça um logout na aplicação', () => {
 
     cy.getByData('botao-login').click();
     cy.getByData('email-input').type('luisa@gmail.com');
@@ -19,12 +22,11 @@ describe('Jornadas de usuário', () => {
     cy.location('pathname').should('eq', '/');
   });
 
-  it('Deve permitir que a pessoa usuária faça o seu cadastro, realize login na aplicação, realize uma transação e faça um logout', () => {
-    cy.visit('/');
-
+  it('Deve permitir que o usuário faça o seu cadastro, realize login na aplicação, realize uma transação e faça um logout', () => {
+  
     cy.getByData('botao-cadastro').click();
-    cy.getByData('nome-input').type('Gui Lima');
-    cy.getByData('email-input').type('gui@email.com');
+    cy.getByData('nome-input').type('Alexandre de Morais');
+    cy.getByData('email-input').type('alexandre@email.com');
     cy.getByData('senha-input').type('456789');
     cy.getByData('botao-enviar').click();
 
