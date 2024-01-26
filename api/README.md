@@ -1,29 +1,29 @@
-![React: Testes end to end com Cypress](thumb.png)
+![React: Avançando em seus testes end to end com Cypress](thumb.png)
 
 # Bytebank
 
-O Bytebank é um MVP de banco digital que está no início de suas atividades mas ainda falta muito que ser desenvolvido. 
+O Bytebank é um MVP de banco digital que ainda está em fase de desenvolvimento. Esta API foi desenvolvida com o objetivo de facilitar os testes de algumas partes da aplicação e testar novas features. 
 
-# JSONServer + JWT Auth
+# lowDB + JWT Auth
 
-Essa é ma API Rest mockada, utilizando json-server e JWT.
+Essa é ma API Rest mockada, utilizando [lowDB](https://github.com/typicode/lowdb) e JWT.
 
 ## 🛠️ Instalação
 
 ```bash
 $ npm install
-$ npm run start-api
+$ npm run dev
 ```
 
 ## 🛠️ Como se registrar?
 
-Você pode fazer isso efetuando uma requisição post para:
+Você pode se registrar efetuando uma requisição post para:
 
 ```
-POST http://localhost:8000/public/cadastrar
+POST http://localhost:8000/users/register
 ```
 
-Com os seguintes dados:
+Com os seguintes dados por exemplo:
 
 ```
 {
@@ -33,14 +33,14 @@ Com os seguintes dados:
 }
 ```
 
-Repare que o e-mail é um campo único e usuários com e-mails duplicados não serão persistidos.
+O e-mail é um campo único e usuários com e-mails duplicados não serão persistidos.
 
 ## 🛠️ Como fazer login?
 
-Você pode fazer isso efetuando uma requisição post para:
+Você pode fazer login efetuando uma requisição post para:
 
 ```
-POST http://localhost:8000/public/login
+POST http://localhost:8000/users/login
 ```
 
 Com os seguintes dados:
@@ -71,4 +71,4 @@ Authorization: Bearer <ACCESS_TOKEN>
 
 ## 📚 Mais informações do curso
 
-O Bytebank é um projeto utilizado durante toda a formação de React: Testando seu Front-end, e essa API será utilizada em alguns cursos :)
+O Bytebank é um projeto utilizado durante toda a formação de React: Melhore suas aplicações com testes automatizados, e essa API será utilizada em alguns cursos :)
