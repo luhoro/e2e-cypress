@@ -1,10 +1,10 @@
 {
   "users": [
     {
-      "id": "40a41438-84a6-4b4d-ae1d-7f1713d0a9fe",
-      "nome": "Neilton Seguins",
-      "email": "neilton@alura.com",
-      "senha": "123456",
+      "id": "dd7a79e2-3b67-480a-93a5-8ffb909f79bb",
+      "nome": "luisa",
+      "email": "luisa@gmail.com",
+      "senha": "Aa",
       "transacoes": [
         {
           "id": "788f434b-11ee-451d-b968-02d203bfc81a",
@@ -35,13 +35,13 @@
           "mes": "Março"
         }
       ],
-      "saldo": 2340
+      "saldo": 920
     },
     {
-      "id": "c691fd15-dcd5-4f24-89da-cdfa3cef9d67",
-      "nome": "Vinicius Neves",
-      "email": "vinny@alura.com",
-      "senha": "789456",
+      "id": "b18f2911-9d07-482b-a5bd-1569e16e6bcc",
+      "nome": "Alexandre de Morais",
+      "email": "alexandre@email.com",
+      "senha": "456789",
       "transacoes": [
         {
           "id": "b0411964-c8d4-4742-ad6d-15bb35b71b97",
@@ -61,10 +61,10 @@
       "saldo": 3500
     },
     {
-      "id": "dd7a79e2-3b67-480a-93a5-8ffb909f79bb",
-      "nome": "luisa",
-      "email": "luisa@gmail.com",
-      "senha": "Aa",
+      "id": "7c1431c6-088e-4dd7-a0d7-fac7da0bddf1",
+      "nome": "Bianca",
+      "email": "Bianca@gmail.com",
+      "senha": "senha",
       "transacoes": [],
       "saldo": 0
     }

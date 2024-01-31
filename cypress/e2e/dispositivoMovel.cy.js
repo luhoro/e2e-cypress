@@ -29,8 +29,8 @@ describe('Menu de navegação do ícone hamburguer', () => {
       cy.visit('/');
 
       cy.getByData('botao-login').click();
-      cy.getByData('email-input').type('neilton@alura.com');
-      cy.getByData('senha-input').type('123456');
+      cy.getByData('email-input').type('luisa@gmail.com');
+      cy.getByData('senha-input').type('Aa');
       cy.getByData('botao-enviar').click();
 
       cy.location('pathname').should('eq', '/home');
