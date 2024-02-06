@@ -1,0 +1,37 @@
+{
+  "id": "dd7a79e2-3b67-480a-93a5-8ffb909f79bb",
+  "nome": "Luisa",
+  "email": "luisa@gmail.com",
+  "senha": "Aa",
+  "transacoes": [
+    {
+      "id": "788f434b-11ee-451d-b968-02d203bfc81a",
+      "tipoTransacao": "Depósito",
+      "valor": "100",
+      "data": "16/02/2023",
+      "mes": "Fevereiro"
+    },
+    {
+      "id": "745fed04-dd02-4e45-821e-166f524d1fb2",
+      "tipoTransacao": "Depósito",
+      "valor": "500",
+      "data": "17/02/2023",
+      "mes": "Fevereiro"
+    },
+    {
+      "id": "78c5d8c3-6f46-41d1-9152-7c2474bcd473",
+      "tipoTransacao": "Transferência",
+      "valor": "360",
+      "data": "17/02/2023",
+      "mes": "Fevereiro"
+    },
+    {
+      "id": "70eeaa13-cef8-4ad6-aa00-7dce77567748",
+      "tipoTransacao": "Depósito",
+      "valor": "200",
+      "data": "01/03/2023",
+      "mes": "Março"
+    }
+  ],
+  "saldo": 920
+}

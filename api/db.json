@@ -40,7 +40,7 @@
     {
       "id": "b18f2911-9d07-482b-a5bd-1569e16e6bcc",
       "nome": "Alexandre de Morais",
-      "email": "alexandre@email.com",
+      "email": "alexandre@gmail.com",
       "senha": "456789",
       "transacoes": [
         {
@@ -59,110 +59,6 @@
         }
       ],
       "saldo": 3500
-    },
-    {
-      "id": "7c1431c6-088e-4dd7-a0d7-fac7da0bddf1",
-      "nome": "Bianca",
-      "email": "Bianca@gmail.com",
-      "senha": "senha",
-      "transacoes": [],
-      "saldo": 0
-    },
-    {
-      "id": "257260ef-41fb-425f-800e-0d49ee02bbf5",
-      "nome": "Renato Faria",
-      "email": "renatofaria@gmail.com",
-      "senha": "Rr",
-      "transacoes": [],
-      "saldo": 0
-    },
-    {
-      "id": "6ca2a1e3-c940-4e81-b5cd-853d39f45bd1",
-      "nome": "Renato Faria",
-      "email": "renatofaria@gmail.com",
-      "senha": "Rr",
-      "transacoes": [],
-      "saldo": 0
-    },
-    {
-      "id": "5f87ea21-bf60-4f95-961e-8fc7b6685227",
-      "nome": "Renato Faria",
-      "email": "renatofaria@gmail.com",
-      "senha": "Rr",
-      "transacoes": [],
-      "saldo": 0
-    },
-    {
-      "id": "b784998d-25be-4e16-a249-b4d223f206cd",
-      "nome": "Renato Faria",
-      "email": "renatofaria@gmail.com",
-      "senha": "Rr",
-      "transacoes": [],
-      "saldo": 0
-    },
-    {
-      "id": "d54a2412-6251-44dd-a171-078401430660",
-      "nome": "Renato Fariaa",
-      "email": "renatofariaa@gmail.com",
-      "senha": "Rra",
-      "transacoes": [],
-      "saldo": 0
-    },
-    {
-      "id": "0d3559a4-1b8d-4013-a3b7-d7ffd3ec988c",
-      "nome": "Renato Fariaa",
-      "email": "renatofariaa@gmail.com",
-      "senha": "Rra",
-      "transacoes": [],
-      "saldo": 0
-    },
-    {
-      "id": "e26ad040-be7a-4b98-8acb-a82cb59eafb8",
-      "nome": "Renato Fariaaa",
-      "email": "renataofariaa@gmail.com",
-      "senha": "Rraa",
-      "transacoes": [],
-      "saldo": 0
-    },
-    {
-      "id": "7627157c-dad9-4b21-8f56-701677d42859",
-      "nome": "Ana Howe",
-      "email": "Lucas_Braun@yahoo.com",
-      "senha": "SgsDVu1qyBeumUw",
-      "transacoes": [],
-      "saldo": 0
-    },
-    {
-      "id": "8e4c0fdb-158c-4d26-adc4-7c220fe4f8f9",
-      "nome": "Mr. Terry Gleichner",
-      "email": "Luigi.Morar39@gmail.com",
-      "senha": "1UEjoTrgsskgtl8",
-      "transacoes": [],
-      "saldo": 0
-    },
-    {
-      "id": "3fbbd4fb-5e4b-472b-a0ea-f520951ead80",
-      "nome": "Kerry Lockman MD",
-      "email": "Hal84@yahoo.com",
-      "senha": "10mhKA9_E1BBswd",
-      "transacoes": [],
-      "saldo": 0
-    },
-    {
-      "id": "7119b8a7-0993-4099-976a-00b1f4d857e3",
-      "nome": "Vitória Pereira",
-      "email": "Benjamin86@hotmail.com",
-      "senha": "ZjluQ16s98prYrg",
-      "transacoes": [],
-      "saldo": 0
-    },
-    {
-      "id": "c4358a50-3c09-438a-8b78-c25a984352f5",
-      "nome": "João Lucas Macedo",
-      "email": "Pedro29@yahoo.com",
-      "senha": "RlC5GJkSVC3jqqe",
-      "transacoes": [],
-      "saldo": 0
     }
   ]
 }
