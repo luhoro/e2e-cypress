@@ -35,7 +35,7 @@ describe('Realizando requisições para a API', () => {
     it('Deve fazer a interceptação do POST users/login', () => {
       cy.intercept('POST', 'users/login').as('loginRequest');
       cy.login('luisa@gmail.com', 'Aa');
-      cy.wait('@loginRequest').then((interception) => {
+      cy.wait('@loginRequest').then( interception => {
         interception.response = {
           statusCode: 200,
           body: {
@@ -50,6 +50,21 @@ describe('Realizando requisições para a API', () => {
         'contain.text',
         'Bem vindo de volta!'
       );
+    });
+  });
+
+  context.only('Realizando login via API', () => {
+    it('Deve permitir o login do usuário Luisa', () => {
+      cy.request({
+        method: 'POST',
+        url: 'http://localhost:8000/users/login',
+        body: Cypress.env(),
+      }).then((res) => {
+        expect(res.status).to.eq(200);
+        expect(res.body).is.not.empty;
+        expect(res.body.user).to.have.property('nome');
+        expect(res.body.user.nome).to.be.equal('Luisa');
+      });
     });
   });
 });
