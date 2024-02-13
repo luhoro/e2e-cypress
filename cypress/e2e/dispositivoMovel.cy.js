@@ -9,11 +9,9 @@ describe('Menu de navegação do ícone hamburguer', () => {
     });
 
     it('Deve existir um menu hambúrguer', () => {
-      cy.getByData('botao-login').click();
-      cy.getByData('email-input').type('luisa@gmail.com');
-      cy.getByData('senha-input').type('Aa');
-      cy.getByData('botao-enviar').click();
+      cy.login(Cypress.env('email'), Cypress.env('senha'))
 
+      cy.visit('/home')
       cy.location('pathname').should('eq', '/home');
 
       cy.getByData('menu-burguer').should('be.visible');
@@ -26,13 +24,9 @@ describe('Menu de navegação do ícone hamburguer', () => {
     });
 
     it('Não deve existir um botão menu burguer', () => {
-      cy.visit('/');
+      cy.login(Cypress.env('email'), Cypress.env('senha'))
 
-      cy.getByData('botao-login').click();
-      cy.getByData('email-input').type('luisa@gmail.com');
-      cy.getByData('senha-input').type('Aa');
-      cy.getByData('botao-enviar').click();
-
+      cy.visit('/home')
       cy.location('pathname').should('eq', '/home');
 
       cy.getByData('menu-burguer').should('not.be.visible');
