@@ -92,8 +92,6 @@ describe('Realizando transações', () => {
 
   //   cy.location('pathname').should('eq', '/home');
   // });
-
-
 });
 
 describe('Testa informações de um usuário específico', () => {

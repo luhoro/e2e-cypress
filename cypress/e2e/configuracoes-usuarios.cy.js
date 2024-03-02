@@ -1,10 +1,10 @@
-import { fakerPT_BR } from '@faker-js/faker';
+import { fakerPT_BR as faker } from '@faker-js/faker';
 
 describe('Atualização de dados do usuário', () => {
   const novosDadosUsuario = {
-    nome: fakerPT_BR.person.fullName(),
-    email: fakerPT_BR.internet.email(),
-    senha: fakerPT_BR.internet.password(),
+    nome: faker.person.fullName(),
+    email: faker.internet.email(),
+    senha: faker.internet.password(),
   };
 
   it('Deve permitir o usuário atualizar seus dados', () => {

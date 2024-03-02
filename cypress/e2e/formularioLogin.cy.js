@@ -12,7 +12,7 @@ describe('Formulário de login', () => {
         'contain',
         'Bem vindo de volta!'
       );
-      cy.contains(usuario[1].nome).should('be.visible')
+      cy.contains(usuario[1].nome).should('be.visible');
     });
   });
 
